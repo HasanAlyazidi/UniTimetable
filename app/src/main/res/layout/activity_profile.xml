@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="307dp"
+                android:id="@+id/layoutTop"
+                android:background="@drawable/profile_top_background"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="187dp"
+                    android:layout_height="187dp"
+                    app:civ_border_width="4dp"
+                    app:civ_border_color="#EEEEEE"
+                    android:id="@+id/imageviewProfilePicture"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="63dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/profile_no_image" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Picture"
+                    android:id="@+id/textView4"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="80dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile"
+                    android:id="@+id/textviewPageTitle"
+                    android:textSize="25sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edittextProfileStudentID"
+                    android:background="@drawable/edittext_style"
+                    android:singleLine="true"
+                    android:hint="ID"
+                    android:textColorHint="#5e7072"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="15dp"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="15dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edittextProfileName"
+                    android:background="@drawable/edittext_style"
+                    android:singleLine="true"
+                    android:hint="Name"
+                    android:textColorHint="#5e7072"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="15dp"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="15dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edittextProfileProgram"
+                    android:background="@drawable/edittext_style"
+                    android:singleLine="true"
+                    android:hint="Program"
+                    android:textColorHint="#5e7072"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="15dp"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="15dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edittextProfileSemester"
+                    android:background="@drawable/edittext_style"
+                    android:singleLine="true"
+                    android:hint="Semester"
+                    android:textColorHint="#5e7072"
+                    android:textColor="#000000"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="15dp"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="15dp" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonContinue"
+                    android:background="@drawable/style_main_button"
+                    android:textColor="#ffffff"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="15dp"
+                    android:textSize="18sp"
+                    android:text="Continue"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

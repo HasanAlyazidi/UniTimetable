@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/layoutPopup"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:background="@drawable/popup_background_new">
+
+    <Button
+        android:id="@+id/buttonMenuProfile"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:background="@drawable/style_menu_button"
+        android:textSize="12sp"
+        android:text="Profile"
+        android:textColor="#176988" />
+
+    <Button
+        android:id="@+id/buttonMenuAbout"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:background="@drawable/style_menu_button"
+        android:textSize="12sp"
+        android:text="About"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#176988" />
+
+</LinearLayout>

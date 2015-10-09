@@ -68,7 +68,7 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonAddTable"
+            android:id="@+id/buttonAddSubject"
             android:background="@drawable/style_main_button"
             android:textColor="#ffffff"
             android:paddingLeft="15dp"
@@ -76,7 +76,7 @@
             android:paddingBottom="10dp"
             android:paddingRight="15dp"
             android:textSize="18sp"
-            android:text="Add Table"
+            android:text="Add Subject"
             android:textAllCaps="false"/>
 
     </LinearLayout>
@@ -92,7 +92,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tables"
+            android:text="title"
             android:id="@+id/textviewPageTitle"
             android:gravity="center"
             android:textSize="16sp"
@@ -102,7 +102,7 @@
             android:textColor="#444343" />
 
         <ListView
-            android:id="@+id/listviewTables"
+            android:id="@+id/listviewSubjects"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:smoothScrollbar="true"
@@ -137,7 +137,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No Table Added"
+            android:text="No Subject Added"
             android:id="@+id/textviewNoData"
             android:layout_gravity="center_horizontal"
             android:textColor="#fff3a21b"
